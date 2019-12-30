@@ -1,5 +1,46 @@
 /* overrides */
 
+.modal-backdrop.show {
+  opacity: 0.75;
+}
+
+@media (min-width: 992px) {
+  .modal-xl {
+    max-width: 1600px;
+  }
+}
+
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+h5 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
 
 
 @media screen and (max-width: 992px) {
@@ -229,5 +270,50 @@ a:active {
 
 .raleway900 {
   font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.worksans100 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100;
+}
+
+.worksans200 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+}
+
+.worksans300 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+.worksans400 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+.worksans500 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+.worksans600 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+}
+
+.worksans700 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+}
+
+.worksans800 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+}
+
+.worksans900 {
+  font-family: 'Work Sans', sans-serif;
   font-weight: 900;
 }
